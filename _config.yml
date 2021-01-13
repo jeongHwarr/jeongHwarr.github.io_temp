@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "JeongHwarr"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jfif"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "AI researcher"
   location         : "Korea"
   email            :
@@ -121,7 +121,7 @@ author:
 # Site Footer
 footer:
   links:
-      - label: "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:green2368@naver.com
     - label: "Twitter"
@@ -262,7 +262,6 @@ tag_archive:
 
 
 # HTML Compression
-# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
