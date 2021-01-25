@@ -13,8 +13,8 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, "Jeju Gothic", serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Jeju Gothic","Nanum Gothic", "Roboto", "Segoe UI",
+$serif: Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Handon3gyeopsal300g", "Jeju Gothic", "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
@@ -151,9 +151,9 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width-narrow: 20% !default;
+$right-sidebar-width: 20% !default;
+$right-sidebar-width-wide: 20% !default;
 
 /*
    Other
