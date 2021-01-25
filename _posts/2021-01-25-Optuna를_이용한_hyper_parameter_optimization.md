@@ -2,7 +2,7 @@
 title: Optuna를 이용한 hyper parameter optimization
 subtitle: a
 categories: a
-date: 2021-01-25 14:33:25 +0900
+date: 2021-01-25 14:36:51 +0900
 tags:
   -- c
 ---
@@ -17,7 +17,7 @@ tags:
 
 [Google Colaboratory](https://colab.research.google.com/drive/1TEILbIeyE1wW3daNWOx9rLq0Hc9TXmbV)
 
-![Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled.png](Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled.png)
+![/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled.png](/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled.png)
 
 이 게시물에서는 간단한 pytorch 신경망 훈련 스크립트를 가져와 `Optuna` 패키지(docs [here](https://optuna.readthedocs.io/en/stable/tutorial/index.html) )를 이용하여 성능을 향상 시킬 것이다.  
 
@@ -271,7 +271,7 @@ df.head(3)
 
 그러면 다음과 같은 결과가 출력될 것이다. 
 
-![Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled_1.png](Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled_1.png)
+![/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled_1.png](/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled_1.png)
 
 최적의 파라미터를 확인하기 위해서 `study.best_trial`및 `study.best_params`도 사용할 수 있다.
 
@@ -285,19 +285,19 @@ df.head(3)
 
 예를 들어 파라미터 간의 관계를 확인하기 위해  `plot_parallel_coordinates(study)` 이라는 명령어를 사용하여 아래와 같은 결과를 얻을 수 있다. (이 예시에서는 lr과 momentum이 파라미터)
 
-![Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled_2.png](Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled_2.png)
+![/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled_2.png](/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled_2.png)
 
 다른 방법으로 contour plot을 이용할 수도 있다. 이 결과는 `plot_contour(study)` 를 통해 얻을 수 있다. 
 
-![Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled_3.png](Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled_3.png)
+![/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled_3.png](/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled_3.png)
 
 또한 `slice_plot(study)` 을 호출하여 slice plot을 만들 수 있다. 이는 각 파라미터에 대해 개별적인 최적의 부분 공간이 어디에 위치하는지 이해하는 데 도움이 될 수 있다. 
 
-![Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled_4.png](Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled_4.png)
+![/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled_4.png](/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled_4.png)
 
 마지막으로 study history를 시각화 하기 위해 `plot_optimization_history(study)` 을 이용할 수도 있다. 
 
-![Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled_5.png](Optuna%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20hyper%20parameter%20optimization%204cf32acb3429414fa674ac591e8257bb/Untitled_5.png)
+![/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled_5.png](/assets/images/2021-01-25-Optuna를_이용한_hyper_parameter_optimization/Untitled_5.png)
 
 ---
 
