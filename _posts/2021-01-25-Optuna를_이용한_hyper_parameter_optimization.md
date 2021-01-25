@@ -2,9 +2,9 @@
 title: Optuna를 이용한 hyper parameter optimization
 subtitle: a
 categories: a
-date: 2021-01-25 14:36:51 +0900
+date: 2021-01-25 14:45:49 +0900
 tags:
-  -- c
+  - c
 ---
 
 이 포스트는 아래 원문의 내용을 참고하여 번역 및 수정한 것이다. 원문을 보고 싶으면 아래 링크에서 확인할 수 있다. 
