@@ -7,8 +7,8 @@ toc_sticky: true
 categories:
   - 윤동주
 tags:
-  - 서시
-  - 윤동주
+  - 서   시
+  - 윤   동주
   - 시
 last_modified_at: 2019-04-13T08:06:00-05:00
 ---
