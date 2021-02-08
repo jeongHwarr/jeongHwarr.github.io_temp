@@ -54,9 +54,7 @@ body { margin: 0; }
 .archive{
   font-size: 100% !important;
 }
-.page__title{
-font-family: "Handon3gyeopsal300g" !important
-}
+
 
 .archive__item-title.no_toc a{
 text-decoration: none !important;
@@ -74,6 +72,11 @@ main,
 nav,
 section {
   display: block;
+}
+
+.page__inner-wrap.header{
+  padding-bottom:3em;
+
 }
 
 /* Display block in IE6-9 and FF3 */

@@ -12,14 +12,20 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  
+
+sidebar-contents:
+   - title: "머신러닝"
+     children:
+       - title: "Tips"
+       - url: /categories/#tips
+   - title: "기타"
+     url: /categories/#기타
 # =============================================================================
 #   sidebar-contents:
-#   - title: "Python"
+#   - title: "머신러닝"
 #     children:
-#       - title: "Data handling"
-#         url: /categories/#data-handling
-#       - title: "Web-related"
+#       - title: "팁"
+#       - title: "논문리뷰"
 #         url: /categories/#web
 #       - title: "Pythonic"
 #         url: /categories/#pythonic
