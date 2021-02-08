@@ -1,9 +1,13 @@
 ---
-title: Notion으로 쓴 글 깃헙 블로그로 옮기기 
+title: Notion으로 쓴 글 Github 블로그로 옮기기 
 categories: 기타 
 date: 2021-02-03 19:37:15 +0900
 tags:
-  - notion-to-github, 노션으로 쓴 글 깃헙 블로그로 옮기기, notion, notion to github, notion to jekyll
+  - notion-to-github
+  - 노션으로 쓴 글 깃헙 블로그로 옮기기
+  - notion
+  - notion to github
+  - notion to jekyll
 toc: true
 toc_sticky: true
 ---
@@ -24,7 +28,7 @@ Notion에서 작성하여 export한 파일을 자동으로 GitHub 블로그(jeky
 
 # 2. 사용법
 
-1. `notion-to-github-python.py`를 *본인 로컬 PC github 블로그 디렉터리 (username.github.io)* 에 저장합니다.  아래의 명령어로도 해당 작업이 가능합니다. 
+1.`notion-to-github-python.py`를 *본인 로컬 PC github 블로그 디렉터리 (username.github.io)* 에 저장합니다.  아래의 명령어로도 해당 작업이 가능합니다. 
 - Window OS
 
 ```bash
@@ -41,27 +45,27 @@ cd notion-to-github-python
 sudo cp notion-to-github-python.py <본인의 github 블로그 디렉터리> 
 ```
 
-2. 아래의 방법으로 Notion 페이지를 Export하여 본인 github 블로그 디렉터리 안 _*posts* 폴더*(username.github.io/_posts)*에 옮겨줍니다. 
+2.아래의 방법으로 Notion 페이지를 Export하여 본인 github 블로그 디렉터리 안 _*posts* 폴더*(username.github.io/_posts)*에 옮겨줍니다. 
 
 ![/assets/images/2021-02-03-notiontogithubpython/untitled.png](/assets/images/2021-02-03-notiontogithubpython/untitled.png)
 
 ![/assets/images/2021-02-03-notiontogithubpython/untitled_1.png](/assets/images/2021-02-03-notiontogithubpython/untitled_1.png)
 
-3. `notion_to_github-python.py`를 실행시킵니다. 
+3.`notion_to_github-python.py`를 실행시킵니다. 
 
 ```bash
 python notion-to-github-python.py
 ```
 
-4. 파일의 메타 정보를 입력합니다. 
+4.파일의 메타 정보를 입력합니다. 
 
 ![/assets/images/2021-02-03-notiontogithubpython/untitled_2.png](/assets/images/2021-02-03-notiontogithubpython/untitled_2.png)
 
-5. 압축 파일 삭제 여부를 선택합니다. (`y`: 삭제, `n`: 미삭제) 
+5.압축 파일 삭제 여부를 선택합니다. (`y`: 삭제, `n`: 미삭제) 
 
 ![/assets/images/2021-02-03-notiontogithubpython/untitled_3.png](/assets/images/2021-02-03-notiontogithubpython/untitled_3.png)
 
-6. 작업물을 git에 add하고 commit 및 push를 하여 업로드 합니다. 
+6.작업물을 git에 add하고 commit 및 push를 하여 업로드 합니다. 
 
 # 3. 예정
 
